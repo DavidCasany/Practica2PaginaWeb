@@ -46,8 +46,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto; 
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
@@ -142,7 +142,7 @@ body {
   
 /* Cos principal */
 #cos-principal {
-  width: 62.5%; /* 60% de l'amplada de la pantalla */
+  width: 62.5%; 
   max-width: 1200px;
   margin: 10px auto;
 }
@@ -165,11 +165,11 @@ h2 {
 }
 
 .noticia, .video {
-  margin-bottom: 30px; /* Separació entre notícies */
-  padding: 15px; /* Opcional: afegeix espai dins de cada secció */
-  background: var(--content-bg-color); /* Opcional: fons per fer-les destacades */
+  margin-bottom: 30px; 
+  padding: 15px; 
+  background: var(--content-bg-color); 
   border-radius: 10px; /* Cantonades arrodonides */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: efecte visual */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .noticia h3, .video h3 {
@@ -202,7 +202,7 @@ h2 {
 /* Responsivitat */
 @media (min-width: 768px) {
   .noticia, .video {
-    display: block; /* Assegura la distribució vertical */
+    display: block; 
   }
 }
 
@@ -210,8 +210,8 @@ h2 {
 
 /* Footer */
 #peu {
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto; 
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--footer-bg-color);
   color: var(--footer-text-color);
