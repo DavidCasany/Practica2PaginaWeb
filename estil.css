@@ -44,8 +44,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto; 
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
@@ -81,7 +81,7 @@ body {
   top: 100%;
   left: 0;
   background-color: var(--submenu-bg-color);
-  width: 200px; /* Mida augmentada */
+  width: 200px; 
   border: 1px solid var(--submenu-border-color);
   border-radius: 5px;
   z-index: 1000;
@@ -140,7 +140,7 @@ body {
 
 /* Cos principal */
 #cos-principal {
-  width: 62.5%; /* 60% de l'amplada de la pantalla */
+  width: 62.5%; 
   max-width: 1200px;
   margin: 10px auto;
 }
@@ -191,8 +191,8 @@ body {
 }
 
 .video img:hover {
-  transform: scale(1.05); /* Efecte de zoom */
-  filter: brightness(1.2); /* Augment de brillantor */
+  transform: scale(1.05); 
+  filter: brightness(1.2); 
 }
 
 /* Descripció emergent */
@@ -256,8 +256,8 @@ body {
 
 /* Footer */
 #peu {
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto; 
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--footer-bg-color);
   color: var(--footer-text-color);
