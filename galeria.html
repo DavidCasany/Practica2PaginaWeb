@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+  <link rel="stylesheet" href="estilG.css">
+</head>
+<body>
+
+  <!-- Capçalera -->
+  <header id="capçalera">
+    <!-- Icona Home -->
+    <a href="index.html" class="menu-item" data-ca="Inici" data-en="Home">Inici</a>
+
+    <!-- Opcions del menú principal -->
+    <nav class="menu-central">
+      <div class="menu-item">
+        <span data-ca="Continguts" data-en="Contents">Continguts</span>
+        <!-- Menú desplegable -->
+        <div class="submenu">
+          <a href="Contingut1.html" data-ca="La nova carrera espacial" data-en="The New Space Race">La nova carrera espacial</a>
+          <a href="Contingut2.html" data-ca="Tornem a la lluna" data-en="Return to the Moon">Tornem a la lluna</a>
+          <a href="Contingut3.html" data-ca="SpaceX" data-en="SpaceX">SpaceX</a>
+        </div>
+      </div>
+      <a href="galeria.html" class="menu-item" data-ca="Galeria" data-en="Gallery">Galeria</a>
+      <a href="enllaços_i_noticies.html" class="menu-item" data-ca="Enllaços i notícies" data-en="Links and News">Enllaços i notícies</a>
+    </nav>
+
+    <!-- Idioma -->
+    <span id="idioma-switch" class="menu-item idioma">CAT/ANG</span>
+    
+    <!-- Mode clar/fosc -->
+    <button id="mode-toggle" class="menu-item">☀️</button>
+  </header>
+
+  <!-- Cos principal -->
+<main id="cos-principal">
+  <div id="galeria">
+    <section>
+      <h2>SpaceX</h2>
+
+      <div class="subcategoria">
+        <h3>Falcon 9</h3>
+        <div class="imatges">
+          <div class="imatge"><img src="galeria/Falcon9_1.jpg" alt="Falcon 9 Image 1"></div>
+          <div class="imatge"><img src="galeria/Falcon9_2.png" alt="Falcon 9 Image 2"></div>
+          <div class="imatge"><img src="galeria/Falcon9.gif" alt="Falcon 9 Gif"></div>
+        </div>
+      </div>
+
+      <div class="subcategoria">
+        <h3>Falcon Heavy</h3>
+        <div class="imatges">
+          <div class="imatge"><img src="galeria/FalconHeavy_1.jpg" alt="Falcon Heavy Image 1"></div>
+          <div class="imatge"><img src="galeria/FalconHeavy_2.jpg" alt="Falcon Heavy Image 2"></div>
+          <div class="imatge"><img src="galeria/FalconHeavy.gif" alt="Falcon Heavy Gif"></div>
+        </div>
+      </div>
+
+      <div class="subcategoria">
+        <h3>Starship</h3>
+        <div class="imatges">
+          <div class="imatge"><img src="galeria/Starship_1.jpg" alt="Starship Image 1"></div>
+          <div class="imatge"><img src="galeria/Starship_2.jpg" alt="Starship Image 2"></div>
+          <div class="imatge"><img src="galeria/Starship.gif" alt="Starship Gif"></div>
+        </div>
+      </div>
+      </section>
+
+      
+
+      <section>
+        <h2>NASA</h2>
+        <div class="subcategoria">
+          <h3>SLS</h3>
+          <div class="imatges">
+            <div class="imatge"><img src="galeria/SLS_1.jpg" alt="SLS Image 1"></div>
+            <div class="imatge"><img src="galeria/SLS_2.jpg" alt="SLS Image 2"></div>
+            <div class="imatge"><img src="galeria/SLS.gif" alt="SLS Gif"></div>
+          </div>
+        </div>
+  
+        </div>
+    </section>
+
+      <section>
+        <h2>ESA</h2>
+        <div class="subcategoria">
+          <h3>Ariane 6</h3>
+          <div class="imatges">
+            <div class="imatge"><img src="galeria/Ariane6_1.webp" alt="Ariane 6 Imatge 1"></div>
+            <div class="imatge"><img src="galeria/Ariane6_2.jpg" alt="Ariane 6 Image 2"></div>
+            <div class="imatge"><img src="galeria/Ariane6.gif" alt="Ariane 6 Gif"></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>CNSA</h2>
+        <div class="subcategoria">
+          <h3>Long March 5</h3>
+          <div class="imatges">
+            <div class="imatge"><img src="galeria/LongMarch_1.jpg" alt="Long MarchImatge 1"></div>
+            <div class="imatge"><img src="galeria/LongMarch_2.jpg" alt="Long MarchImage 2"></div>
+            <div class="imatge"><img src="galeria/LongMarch.gif" alt="Long March Gif"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Peu de pàgina -->
+  <footer id="peu">
+    <p> © Copyright by David Casany | Contacte: david.casany@uvic.cat</p>
+  </footer>
+
+  <script src="canviIdioma.js"></script>
+  <script src="canviTema.js"></script>
+
+</body>
+</html>
