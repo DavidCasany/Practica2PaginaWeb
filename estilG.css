@@ -45,8 +45,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto; 
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
@@ -82,7 +82,7 @@ body {
   top: 100%;
   left: 0;
   background-color: var(--submenu-bg-color);
-  width: 200px; /* Mida augmentada */
+  width: 200px; 
   border: 1px solid var(--submenu-border-color);
   border-radius: 5px;
   z-index: 1000;
@@ -143,7 +143,7 @@ body {
 
 /* Cos principal */
 #cos-principal {
-  width: 62.5%; /* 60% de l'amplada de la pantalla */
+  width: 62.5%; 
   max-width: 1200px;
   margin: 10px auto;
 }
@@ -186,8 +186,8 @@ body {
 
 /* Contenidor individual per a cada imatge */
 .imatge {
-  width: 285px; /* Amplada fixa */
-  height: 500px; /* Alçada fixa */
+  width: 285px; 
+  height: 500px; 
   border-radius: 8px;
   overflow: hidden; /* Assegura que res no surti del contenidor */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -196,9 +196,9 @@ body {
 /* Estil per a les imatges */
 .imatge img {
   display: block;
-  width: 100%; /* Ocupa tot l'ample del contenidor */
-  height: 100%; /* Ocupa tota l’alçada del contenidor */
-  object-fit: cover; /* Tallarà la imatge per ajustar-se al contenidor */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
@@ -215,7 +215,7 @@ body {
 @media (max-width: 768px) {
   .imatge {
     width: calc(50% - 10px); /* Dues columnes a pantalles mitjanes */
-    height: 150px; /* Ajusta l'alçada proporcionalment */
+    height: 150px;
   }
 }
 
@@ -229,8 +229,8 @@ body {
   
 /* Footer */
 #peu {
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto; 
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--footer-bg-color);
   color: var(--footer-text-color);
