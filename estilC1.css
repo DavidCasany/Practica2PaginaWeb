@@ -44,8 +44,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto; 
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--header-bg-color);
   color: var(--header-text-color);
@@ -81,7 +81,7 @@ body {
   top: 100%;
   left: 0;
   background-color: var(--submenu-bg-color);
-  width: 200px; /* Mida augmentada */
+  width: 200px; 
   border: 1px solid var(--submenu-border-color);
   border-radius: 5px;
   z-index: 1000;
@@ -147,7 +147,7 @@ body {
   max-width: 1200px;
   margin: 30px auto;
   font-family: 'Arial', sans-serif;
-  color: var(--text-color); /* Text */
+  color: var(--text-color); 
   }
   
   #contingut {
@@ -162,13 +162,13 @@ body {
   text-align: left;
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: var(--text-color); /* Títol */
+  color: var(--text-color); 
   }
   
   .descripcio {
   text-align: left;
   margin-top: 20px;
-  color: var(--content-text-color); /* Color intermedi */
+  color: var(--content-text-color); 
   font-size: 1.2em;
   line-height: 1.5em;
   }
@@ -186,8 +186,8 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 3px; /* Línia més gruixuda */
-  background: #aaa; /* Color gris sòlid */
+  height: 3px; 
+  background: #aaa; 
   margin-top: 30px;
   }
   
@@ -224,8 +224,8 @@ body {
   
   .seccio-contingut .imatges img:hover {
   transform: scale(1.05); /* Ampliació */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Ombratge */
-  filter: brightness(1.2); /* Brillantor */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+  filter: brightness(1.2); 
   }
   
   
@@ -250,8 +250,8 @@ body {
   
 /* Footer */
 #peu {
-  margin: 20px auto; /* Marge superior i centrat */
-  width: 60%; /* 60% de l'amplada de la pantalla */
+  margin: 20px auto;
+  width: 60%; 
   max-width: 1000px;
   background-color: var(--footer-bg-color);
   color: var(--footer-text-color);
